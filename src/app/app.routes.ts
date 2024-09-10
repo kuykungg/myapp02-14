@@ -10,9 +10,9 @@ export const routes: Routes = [
     component: FrontLayoutComponent,
     children:[
       {path:'',component:HomeComponent},
-      {path:'about',component:AboutComponent},
-      {path:'login',component:LoglnComponent},
-      {path:'register',component:RegistrComponent},
+      {path:'/about',component:AboutComponent},
+      {path:'/login',component:LoglnComponent},
+      {path:'/register',component:RegistrComponent},
     ]
   }
 ];
